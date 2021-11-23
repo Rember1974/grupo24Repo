@@ -1,4 +1,7 @@
-let numero = 8
+let numero = 17
+
+console.log(esprimo(numero));
+
 
 function esprimo(num) {
     let cont = 0
@@ -9,4 +12,8 @@ function esprimo(num) {
         }
             
     }
+    if (cont == 2) {
+        return true
+    }
+    return false
 }
